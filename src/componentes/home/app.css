@@ -1,0 +1,268 @@
+#app {
+    display: flex;
+    flex: 1fr;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+sidebar {
+    display: flex;
+    flex-direction: row;
+    flex: 1fr;
+    justify-content: flex-end;
+    background-color: rgb(160, 28, 212);
+    color:white;
+}
+
+sidebar div {
+
+    align-items:flex-end;
+    justify-content: flex-end;
+}
+
+sidebar ul li {
+    display: inline-block;
+    padding: 4px 20px;
+   
+    
+    
+}
+
+planos div {
+    display: flex;
+    flex-direction: row;
+    flex: 1fr;
+    justify-content: space-between ;
+    
+}
+div form ul li {
+    list-style-type: none;
+    border-bottom: #f6f6f6 solid 2px;
+    margin-top: 10px;
+}
+div form ul {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+div form h2 {
+    margin-left: 5px;
+}
+div form {
+    padding: 2px 2px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 3px;
+    max-width: 280px;
+    color: rgb(196, 181, 181);
+    
+}
+div form button {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: rgb(160, 28, 212);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+main header {
+    display: flex;
+    flex: 1fr;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+main header h1 {
+    font-size: 70px;
+    color: darkgray;
+}
+main header h2 {
+    font-size: 50px;
+    color: rgb(196, 181, 181);
+    padding-right: 35%;
+    margin-bottom: 0%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+footer .rodape {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    align-items: center;
+    background-color: slategrey;
+    padding: 20px;
+    min-height: 200px;
+    
+}
+footer div {
+    align-items: center;
+    background-color: rgb(171, 14, 233);
+    min-height: 200px;  
+}
+
+.conteudo {
+    display: flex;
+    flex: 1fr;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.conteudo img {
+    max-width: 200px;
+    max-height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 5px;
+}
+.conteudo div {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 50%;
+}
+
+.conteudo div h3 {
+    font-size: 25px;
+    color: blueviolet;
+}
+
+.conteudo div p {
+    font-size: 16px;
+    color: dimgray;
+    box-shadow: 2px;
+}
+.contato {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contato section {
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+    justify-content: space-around;
+    width: 80%;
+    border-radius: 30px;
+
+    
+}
+.contato div {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 750px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    
+}
+.aside {
+    width: 120px;
+    max-height: 120px;
+
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    border-radius: 10px;
+    
+}
+#form label {
+    width: 100%;
+    margin-left: 7px;
+    padding-bottom: 7px;
+    color: blue;
+}
+#form input {
+    padding: 10px;
+    font-size: 14px;
+    color: darkgray;
+    box-shadow: none;
+    border: none;
+    border-bottom: solid 1px;
+    border-right: solid 2px;
+    border-left: solid 2px;
+    border-radius: 5px;
+
+}
+#form h1 {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+#form button {
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+}
+
+produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+produtos #card {
+    background-color: blueviolet;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    border-radius: 40%;
+    
+}
+
+produtos .produto {
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 40px;
+    
+    margin-bottom: 5px;
+    margin-top:5px;
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
+    opacity: 0.8;
+}
+produtos .produto #produto  {
+    border-bottom: #f6f6f6;  
+    color: blueviolet; 
+    width: 220px; 
+    font-size: 16px;
+    
+}
+produtos .produto #produto p {
+    color:rgb(145, 157, 168);
+}
+produtos .produto img {
+    max-width: 90px;
+    max-height: 90px;
+    justify-self: center;
+    padding-left: 20%;
+}
+
+texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+texto h1 {
+    font-size: 30px;
+    color: dimgrey;
+}
